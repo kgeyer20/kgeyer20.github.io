@@ -41,6 +41,7 @@
     font-size: 15px;
     transition-duration: 0.08s;
     background-color: lawngreen;
+    cursor: grab;
 }
 #english:hover {
     background-color: red;
@@ -79,6 +80,7 @@ body{
     height: 30px;
     font-size: 15px;
     transition-duration: 0.08s;
+    cursor: grab;
 }
 
 .emdiv{
