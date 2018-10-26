@@ -65,31 +65,40 @@ body{
     
 }
 
-#email{
+
+
+
+.bottomrow{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    width: 80%;
     margin: auto;
-    height: 30px;
-    width: 100%;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 5px;
-    background-color: lightblue;
-    border: 1px solid black;
-    font-family: monospace
+    grid-gap: 20px;
+    padding: 10px;
+    padding-bottom: 20px
 }
-#email:hover{
+
+
+#botleft{
+    height: 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#botleft:hover{
     background-color: yellow;
+}
+#botright{
     height: 30px;
-    font-size: 15px;
-    transition-duration: 0.08s;
-    cursor: grab;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
 }
-
-.emdiv{
-    width: 25%;
-    margin-left: 65%;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    padding-top: 10px;
+#botright:hover{
+    background-color: yellow;
 }
 
 
-
+#botmid{
+    background-color: white;
+}
